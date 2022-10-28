@@ -5,5 +5,6 @@
 
 ## DESCRIPTION
 click on the link
+https://mngethe.github.io/delani-studio/
 The online web App is design using html,css,jquery and javascript
 
