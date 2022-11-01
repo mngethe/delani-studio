@@ -1,11 +1,11 @@
 .welcome{
     background-image: url(../images/img\ 1.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 490px;
     text-align: center;
     font-size: 60%;
-    padding: 150px;
+    padding: 90px;
     position: relative;
 }
 .welcome .p{
@@ -14,6 +14,24 @@
 .what{
     text-align: center;
     
+}
+.about{
+    text-align: center;
+}
+.services{
+    background-image: url(../images/img\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490px;
+    text-align: center;
+    font-size: 100%;
+    padding: 90px;
+    position: relative;
+    
+
+}
+.services .p{
+    color: brown;
 }
 .what #design{
     position: relative;
@@ -29,7 +47,7 @@
     background-image: url(../images/img\ 2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 250px;
     padding: 30px;
     border: radius 15px;
     box-shadow: 0 0 25px rgba(0,0,0,0.3);
