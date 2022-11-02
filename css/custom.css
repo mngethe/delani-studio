@@ -42,6 +42,9 @@
 .what #product{
     position: relative;
 }
+.portfolio{
+    text-align: center;
+}
 .input_container{
     width: 600px;
     background-image: url(../images/img\ 2.jpg);
@@ -55,4 +58,3 @@
 .input_container .input-row{
     margin-bottom: 12px;
 }
-.input_container
