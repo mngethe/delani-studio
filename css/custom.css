@@ -33,14 +33,33 @@
 .services .p{
     color: brown;
 }
-.what #design{
+.what .design{
+    position: relative;
+
+}
+.what #D1{
+    display: none;
+}
+.what #D2{
+    display: none;
+}
+.what .development{
     position: relative;
 }
-.what #development{
+.what #DEV1{
+    display: none;
+}
+.what #DEV2{
+    display: none;
+}
+.what .product{
     position: relative;
 }
-.what #product{
-    position: relative;
+.what #PRO1{
+    display: none;
+}
+.what #PRO2{
+    display: none;
 }
 .portfolio{
     text-align: center;
@@ -60,7 +79,4 @@
 #delani{
     text-align: center;
     color: darkred;
-}
-#img{
-
 }
