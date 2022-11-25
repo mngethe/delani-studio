@@ -18,6 +18,15 @@
 .about{
     text-align: center;
 }
+#content5 {
+    display: none;
+  }
+  #dev-content {
+    display: none;
+  }
+  #prod-content {
+    display: none;
+  }
 .services{
     background-image: url(../images/img\ 3.jpg);
     background-size: cover;
