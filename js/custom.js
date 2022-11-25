@@ -1,18 +1,33 @@
 $(document).ready(function(){
-    $("#design-show").click(function(){
-        $("#D1").toggle();
-        $("#D2").toggle();
-    });
-    
-    $("#development-show").click(function(){
-        alert("#DEV1").toggle();
-        alert("#DEV2").toggle();
+    $("#design").click(function() {
+        $("#design").toggle();
+        $("#content5").toggle();
+      });
     });
 
-    $("#product-show").click(function(){
-        alert("#PRO").toggle();
-        alert("#PRO").toggle();
+    $("#content5").click(function() {
+      $("#design").toggle();
+      $("#content5").toggle();
     });
+    $("#dev").click(function() {
+        $("#dev").toggle();
+        $("#dev-content").toggle();
+      });
+
+      $("#dev-content").click(function() {
+        $("#dev").toggle();
+        $("#dev-content").toggle();
+      });
+
+      $("#product").click(function() {
+        $("#product").toggle();
+        $("#prod-content").toggle();
+      });
+
+      $("#prod-content").click(function() {
+        $("#product").toggle();
+        $("#prod-content").toggle();
+      });
 
     $("#col-1").hover(function() {
         $("#text1").fadeTo("slow",1);
@@ -70,8 +85,6 @@ $(document).ready(function(){
           $("#text8").fadeTo("slow",0);
           $("#photo8").fadeTo("slow",1);
         });
-
-});
 
 
 
