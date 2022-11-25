@@ -86,26 +86,23 @@ $(document).ready(function(){
           $("#photo8").fadeTo("slow",1);
         });
 
-
-
-$("formvalidation").validate({
-    rules:{
-        name:{
-            minlength:2
-        },
-        email:{
-            email:true
-        }
-    },
-    messages: {
-        required:"please enter your name",
-        minlength:"name at least 2 characters"
-    },
-    email:"please enter your email",
-    subject:"please enter your subject",
-    formmessage:"please enter your message",
-    
-    SubmitEvent: function(form){
-        form.submit();
-    }
-});
+ $("form").submit(function() {
+            rules:{
+                name:{
+                    minlength:2
+                }
+                email:{
+                    email;true
+                }
+            }
+            messages: {
+                required:"please enter your name",
+                minlength;"name at least 2 characters"
+            }
+            email:"please enter your email",
+            subject;"please enter your subject",
+            formmessage;"please enter your message",
+            
+            event.preventDefault();
+            
+        });
